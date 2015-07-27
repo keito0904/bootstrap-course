@@ -26,12 +26,11 @@
   vertical-align: top;
 }
 .media-left{
-  padding-right: 30px;
   width: 200px;
+  padding-right: 30px;
 }
 .media-left img{
-  border: none;
-  width: 100%;
+  width: 200px;
   box-shadow: 0px 1px 3px rgba(34,50,24,0.6);
 }
 .media-body .service-name{
