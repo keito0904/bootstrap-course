@@ -1,0 +1,36 @@
+.main-content .left-content{
+  float: left;
+  width: 240px;
+  margin-left: 0px;
+}
+.main-content .right-content{
+  float: left;
+  width: 700px;
+  margin-left: 40px;
+}
+.ideal-box .box-content .motto{
+  font-size: 25px;
+  margin: 20px 0px;
+  color: #95c530;
+  font-weight: bold;
+}
+.ideal-box .box-content p{
+  padding: 0px 60px;
+  line-height: 1.8;
+}
+.aboutus-box .box-content{
+  padding: 20px 28px 35px;
+}
+.aboutus-box .box-content table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.aboutus-box .box-content th{
+  padding: 15px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #95c530;
+}
+.aboutus-box .box-content td{
+  padding: 15px 0px;
+  border-bottom: 1px dashed #95c530;
+}

@@ -1,0 +1,66 @@
+.top-head{
+  height: 300px;
+  width: 100%;
+  background: url(img/top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top-head h1{
+  color: #fff;
+  font-size: 60px;
+  padding-top: 70px;
+  margin-left: 30px;
+  text-shadow: 1px 2px 2px rgba(52,85,43,0.8);
+}
+.newsfeed-box .box-content{
+  height: 250px;
+  overflow: scroll;
+}
+.box-content ul li{
+  margin-bottom: 20px;
+}
+.box-content ul li .date{
+  color: #999;
+}
+.box-content ul li .tag{
+  background-color: #90bc35;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin: 0px 10px;
+}
+.large-box{
+  width: 700px;
+}
+.small-box{
+  width: 330px;
+  height: 350px;
+  margin-right: 40px;
+  float: left;
+}
+.small-box.service-box{
+  margin-right: 0px;
+}
+.small-box .box-content img{
+  width: 100%;
+  border-radius: 4px;
+}
+.main-content .right-content{
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+}
+.main-content .right-content img{
+  width: 100%;
+  border: 5px solid #EDCA2F;
+  box-shadow: 0px 1px 3px rgba(34,50,24,0.6);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.main-content .left-content{
+  float: left;
+  width: 700px;
+}
