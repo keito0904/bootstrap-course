@@ -64,3 +64,13 @@
   float: left;
   width: 700px;
 }
+li.dropdown.open .dropdown-menu{
+  text-align: center;
+}
+li.dropdown.open .dropdown-menu a{
+  display: block;
+  padding: 5px 0px;
+}
+.dropdown-menu .divider{
+  margin: 0px;
+}
