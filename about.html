@@ -48,14 +48,14 @@
           <!-- ---------sidebar---------- -->
           <div class="side">
             <ul>
-              <li>
-                <a href="#ideal" class="side-link">
+              <li role="presentation" class="active">
+                <a href="#ideal" class="side-link" role="tab" data-toggle="tab">
                   <img src="img/banana.png" width="20">
                   経営理念
                 </a>
               </li>
-              <li>
-                <a href="#aboutus" class="side-link">
+              <li role="presentation">
+                <a href="#aboutus" class="side-link" role="tab" data-toggle="tab">
                   <img src="img/banana.png" width="20">
                   会社情報
                 </a>
@@ -84,7 +84,7 @@
         <div class="right-content">
 
           <!-- ----------ideal----------- -->
-          <div class="box large-box ideal-box" id="ideal">
+          <div role="tabpanel" class="box large-box ideal-box tab-pane fade in active" id="ideal">
             <div class="title-back">
               <h2 class="title">経営理念</h2>
             </div>
@@ -108,7 +108,7 @@
           <!-- ----------------------------- -->
 
           <!-- ----------aboutus----------- -->
-          <div class="box large-box aboutus-box" id="aboutus">
+          <div role="tabpanel" class="box large-box aboutus-box tab-pane fade" id="aboutus">
             <div class="title-back">
               <h2 class="title">会社情報</h2>
             </div>
