@@ -166,7 +166,18 @@
     <script src="./js/jquery.arctext.js"></script>
     <script>
       $(function(){
-        $("#title").arctext({radius: 500, rotate: false});
+        $("#title").arctext({radius: 1400, rotate: false, dir: -1});
+        $("#title").on("click", function(){
+          $(this).arctext('set', {
+            radius    : 300,
+            dir       : 1,
+            rotate    : true,
+            animation : {
+              easing  : 'ease-out',
+              speed : 800
+            }
+          });
+        })
       });
     </script>
   </body>
