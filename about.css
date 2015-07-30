@@ -34,3 +34,9 @@
   padding: 15px 0px;
   border-bottom: 1px dashed #95c530;
 }
+.box.fade{
+  display: none;
+}
+.box.active{
+  display: block;
+}
